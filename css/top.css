@@ -32,8 +32,45 @@ header {
 }
 .menu__list__item {
   margin: 5px 20px 5px 20px;
+  background-color: blue;
 }
 
 body {
   background-color: #c7860f;
+  display: flex;
+  flex-flow: column;
+  min-width: 210mm;
+  min-height: 297mm;
+}
+
+main {
+  display: flex;
+  /* 親要素をFlexboxにする */
+  flex-direction: column;
+  justify-content: center;
+  /* 横を中央揃えにする */
+  align-items: center;
+}
+
+.top-picture {
+  margin-top: 30px;
+  min-width: 210mm;
+  height: 300px;
+  background-color: skyblue;
+}
+
+.explainment {
+  text-align: center;
+  background-color: white;
+  width: 500px;
+  margin: 30px;
+}
+
+footer {
+  margin-top: auto;
+  height: 60px;
+  padding: 20px;
+  background-color: black;
+  text-align: center;
+  color: white;
 }/*# sourceMappingURL=top.css.map */
