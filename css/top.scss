@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  background-color: black;
+}
+
+.menu {
+  display: flex; /* 親要素をFlexboxにする */
+  // justify-content: center; /* 横を中央揃えにする */
+  // align-items: center; /* 縦を中央揃えにする */
+  flex-direction: row;
+
+  padding: 5px;
+
+  &__head {
+    color: white;
+    margin: 0px 0px 0px 30px;
+  }
+
+  &__list {
+    margin: 0px 0px 0px auto;
+    color: white;
+    display: flex;
+    list-style: none;
+    background-color: red;
+  }
+
+  &__list__item {
+    margin: 5px 20px 5px 20px;
+  }
+}
+
+body {
+  background-color: rgb(199, 134, 15);
+}
