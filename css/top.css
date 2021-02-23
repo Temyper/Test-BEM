@@ -27,15 +27,31 @@ header {
   margin: 0px 0px 0px auto;
   color: white;
   display: flex;
-  list-style: none;
   background-color: red;
 }
+.menu__list li {
+  list-style-type: none;
+}
 .menu__list__item {
+  display: inline-block;
   margin: 5px 20px 5px 20px;
   background-color: blue;
+  position: relative;
+}
+.menu__list__item__sub-list {
+  display: none;
+  margin: 0px;
+  padding: 0px;
+}
+.menu__list__item:hover .menu__list__item__sub-list {
+  display: block;
+  background-color: red;
+  position: absolute;
 }
 .menu__list__item--member {
+  display: inline-block;
   margin: 5px 20px 5px 20px;
+  position: relative;
   background-color: #47e747;
 }
 

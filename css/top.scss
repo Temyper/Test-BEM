@@ -1,3 +1,5 @@
+// 20210224TODO:ナビゲーションの続き
+
 * {
   margin: 0;
   padding: 0;
@@ -29,16 +31,40 @@ header {
     margin: 0px 0px 0px auto;
     color: white;
     display: flex;
-    list-style: none;
     background-color: red;
+
+    li {
+      list-style-type: none;
+    }
   }
 
   &__list__item {
+    display: inline-block;
+    // 2021024サブメニューの位置の基準
     margin: 5px 20px 5px 20px;
     background-color: blue;
+    position: relative;
   }
+
+  &__list__item__sub-list {
+    display: none;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  &__list__item:hover &__list__item__sub-list {
+    display: block;
+    background-color: red;
+    position: absolute;
+  }
+
   &__list__item--member {
-    @extend &__list__item;
+    // 20210224エラーが出る
+    // @extend &__list__item;
+    display: inline-block;
+    // 2021024サブメニューの位置の基準
+    margin: 5px 20px 5px 20px;
+    position: relative;
     background-color: rgb(71, 231, 71);
   }
 }
