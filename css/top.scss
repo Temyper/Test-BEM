@@ -37,6 +37,10 @@ header {
     margin: 5px 20px 5px 20px;
     background-color: blue;
   }
+  &__list__item--member {
+    margin: 5px 20px 5px 20px;
+    background-color: rgb(71, 231, 71);
+  }
 }
 
 body {
@@ -66,6 +70,39 @@ main {
   background-color: white;
   width: 500px;
   margin: 30px;
+}
+
+.articles {
+  background-color: orange;
+  width: 650px;
+  padding: 10px;
+  &__item {
+    width: 600px;
+    height: 150px;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: purple;
+  }
+
+  &__item__picture {
+    background-color: rgb(112, 235, 112);
+    width: 200px;
+    margin: 10px;
+  }
+  &__item__introduction {
+    width: 400px;
+    background-color: rgb(197, 70, 70);
+    margin: 10px;
+    padding: 10px;
+  }
+}
+
+.bye-message {
+  margin: 20px 0 20px 0;
+  background-color: gray;
+  text-align: center;
+  width: 500px;
 }
 
 footer {

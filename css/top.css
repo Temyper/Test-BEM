@@ -34,6 +34,10 @@ header {
   margin: 5px 20px 5px 20px;
   background-color: blue;
 }
+.menu__list__item--member {
+  margin: 5px 20px 5px 20px;
+  background-color: #47e747;
+}
 
 body {
   background-color: #c7860f;
@@ -64,6 +68,38 @@ main {
   background-color: white;
   width: 500px;
   margin: 30px;
+}
+
+.articles {
+  background-color: orange;
+  width: 650px;
+  padding: 10px;
+}
+.articles__item {
+  width: 600px;
+  height: 150px;
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: purple;
+}
+.articles__item__picture {
+  background-color: #70eb70;
+  width: 200px;
+  margin: 10px;
+}
+.articles__item__introduction {
+  width: 400px;
+  background-color: #c54646;
+  margin: 10px;
+  padding: 10px;
+}
+
+.bye-message {
+  margin: 20px 0 20px 0;
+  background-color: gray;
+  text-align: center;
+  width: 500px;
 }
 
 footer {
