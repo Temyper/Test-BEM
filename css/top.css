@@ -73,7 +73,9 @@ main {
 .articles {
   background-color: orange;
   width: 650px;
+  height: 400px;
   padding: 10px;
+  overflow-y: scroll;
 }
 .articles__item {
   width: 600px;

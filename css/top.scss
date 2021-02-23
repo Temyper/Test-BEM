@@ -38,7 +38,7 @@ header {
     background-color: blue;
   }
   &__list__item--member {
-    margin: 5px 20px 5px 20px;
+    @extend &__list__item;
     background-color: rgb(71, 231, 71);
   }
 }
@@ -75,7 +75,9 @@ main {
 .articles {
   background-color: orange;
   width: 650px;
+  height: 400px;
   padding: 10px;
+  overflow-y: scroll;
   &__item {
     width: 600px;
     height: 150px;
