@@ -38,13 +38,14 @@ header {
   background-color: blue;
   position: relative;
   width: 100px;
+  text-align: center;
 }
 .menu__list__item__sub-list {
   display: none;
   margin: 0px;
   padding: 0px;
 }
-.menu__list__item__sub-list__item {
+.menu__list__item__sub-list__sub-item {
   width: 100px;
 }
 .menu__list__item:hover .menu__list__item__sub-list {

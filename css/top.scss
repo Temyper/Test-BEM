@@ -45,6 +45,7 @@ header {
     background-color: blue;
     position: relative;
     width: 100px;
+    text-align: center;
   }
 
   &__list__item__sub-list {
@@ -53,7 +54,7 @@ header {
     padding: 0px;
   }
 
-  &__list__item__sub-list__item {
+  &__list__item__sub-list__sub-item {
     width: 100px;
   }
 
