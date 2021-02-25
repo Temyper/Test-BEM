@@ -37,11 +37,15 @@ header {
   margin: 5px 20px 5px 20px;
   background-color: blue;
   position: relative;
+  width: 100px;
 }
 .menu__list__item__sub-list {
   display: none;
   margin: 0px;
   padding: 0px;
+}
+.menu__list__item__sub-list__item {
+  width: 100px;
 }
 .menu__list__item:hover .menu__list__item__sub-list {
   display: block;
